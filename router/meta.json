@@ -1,0 +1,12 @@
+{
+  "/": {
+    "title": "Farmers Markets",
+    "description": "Buy fresh produce in Minneapolis and beyond!",
+    "keywords": "farmers market, vegetables"
+  },
+  "/season": {
+    "title": "Farmers Markets -- In Season",
+    "description": "What's in season at farmer's markets near you?",
+    "keywords": "vegetables"
+  }
+}
