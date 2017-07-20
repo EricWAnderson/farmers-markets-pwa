@@ -2,7 +2,7 @@
   "name": "farmers-markets-pwa",
   "description": "A Vue.js project",
   "author": "Eric Anderson <eric429@gmail.com>",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "dev": "node server",
     "start": "NODE_ENV=production node server",
