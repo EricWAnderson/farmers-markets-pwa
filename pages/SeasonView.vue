@@ -1,5 +1,5 @@
 <template>
   <v-layout column justify-center>
-    <img src="/static/season.png" width="735" alt="Vuetify.js" class="mb-5" />
+    <img src="/static/season.png" width="517" alt="What's in Season?" class="mb-5" />
   </v-layout>
 </template>
