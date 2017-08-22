@@ -60,7 +60,7 @@
         miniVariant: false,
         right: true,
         rightDrawer: false,
-        title: 'Farmers Markets'
+        title: 'Minneapolis Farmers Markets'
       }
     }
   }
