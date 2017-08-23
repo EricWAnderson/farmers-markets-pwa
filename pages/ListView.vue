@@ -13,7 +13,7 @@
             <v-card-media
               class="white--text"
               height="200px"
-              :src="market.image"
+              :src="apiUrl + market.image"
             >
               <v-container fill-height fluid class="scrim">
                 <v-layout fill-height>
@@ -41,9 +41,9 @@
                 <v-list-tile-title>
                   <v-list-tile-title class="title">{{ market.name }}</v-list-tile-title>
                 </v-list-tile-title>
-                <v-list-action>
+                <div>
                   <v-icon class="indigo--text">close</v-icon>
-                </v-list-action>
+                </div>
               </v-list-tile>
               <v-list-tile v-if="market.url">
                 <v-list-tile-action>
@@ -93,7 +93,8 @@
   export default {
     data () {
       return {
-        markets: []
+        markets: [],
+        apiUrl: 'https://farmersmarkets-api.herokuapp.com/'
       }
     },
     mounted () {
@@ -101,7 +102,7 @@
     },
     methods: {
       getMarkets() {
-        axios.get('http://localhost:3000/api/v1/markets')
+        axios.get(this.apiUrl + 'api/v1/markets')
           .then(response => {
               this.markets = response.data;
               return response;
