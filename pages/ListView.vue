@@ -8,6 +8,7 @@
           right
           full-width
         >
+          <!-- front side of card -->
           <v-card tile hover fluid id="market-card" class="md-1" slot="activator">
             <v-card-media
               class="white--text"
@@ -33,6 +34,7 @@
             </v-card-title>
           </v-card>
 
+          <!-- back side of card -->
           <v-card tile height="274px">
             <v-list dense>
               <v-list-tile>
